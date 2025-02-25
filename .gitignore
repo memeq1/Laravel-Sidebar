@@ -8,4 +8,4 @@ coverage
 .phpunit.result.cache
 /.idea
 build/report.junit.xml
-
+/coverage-report
