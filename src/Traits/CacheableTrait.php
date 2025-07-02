@@ -44,7 +44,7 @@ trait CacheableTrait
 
     public function __unserialize(array $data): void
     {
-         return $this->unserialize($data);
+          $this->unserialize($data);
     }
 
     /**
