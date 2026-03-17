@@ -2,9 +2,7 @@
 
 namespace Maatwebsite\Sidebar;
 
-use Serializable;
-
-interface ShouldCache extends Serializable
+interface ShouldCache
 {
     /**
      * @return array
