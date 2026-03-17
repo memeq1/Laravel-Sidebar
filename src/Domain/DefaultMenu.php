@@ -10,9 +10,7 @@ use Maatwebsite\Sidebar\Menu;
 use Maatwebsite\Sidebar\Traits\AuthorizableTrait;
 use Maatwebsite\Sidebar\Traits\CacheableTrait;
 use Maatwebsite\Sidebar\Traits\CallableTrait;
-use Serializable;
-
-class DefaultMenu implements Menu, Serializable
+class DefaultMenu implements Menu
 {
     use CallableTrait, CacheableTrait, AuthorizableTrait;
 

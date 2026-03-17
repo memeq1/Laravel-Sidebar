@@ -10,9 +10,7 @@ use Maatwebsite\Sidebar\Traits\AuthorizableTrait;
 use Maatwebsite\Sidebar\Traits\CacheableTrait;
 use Maatwebsite\Sidebar\Traits\CallableTrait;
 use Maatwebsite\Sidebar\Traits\ItemableTrait;
-use Serializable;
-
-class DefaultGroup implements Group, Serializable
+class DefaultGroup implements Group
 {
     use CallableTrait, CacheableTrait, ItemableTrait, AuthorizableTrait;
 
